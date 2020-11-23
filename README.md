@@ -1,5 +1,6 @@
 # Language code
 [![npm](https://img.shields.io/npm/v/language-code.svg)](https://www.npmjs.com/package/language-code)
+An interface with language codes following ISO 639-1 standard
 
 ## Getting started
 
@@ -14,9 +15,11 @@ Use in project:
 ```JavaScript
 import { languageCode } from 'language-code';
 ...
-const language = languageCode['en']
+
+// Setting locale to English:
+const locale = languageCode['en']
 // or
-const language = languageCode.en
+const locale = languageCode.en
 
 ```
 

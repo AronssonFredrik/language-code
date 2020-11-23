@@ -1,6 +1,6 @@
 {
   "name": "language-code",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "description": "An interface with language codes following ISO 639-1 standard",
   "type": "module",
   "main": "dist/index.js",
